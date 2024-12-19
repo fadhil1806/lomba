@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+::selection {
+    color: white;
+    background: #FF589E;
+  }
+
+.ml-4 {
+  margin-left: 4rem;
+}
+.mr-4 {
+  margin-right: 4rem;
+}
+.d-flex {
+    display: flex;
+}
+body {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+header h2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 4rem;
+}
+
+header ul {
+  display: flex;
+  gap: 3rem;
+  margin-right: 4rem;
+}
+header ul li {
+  list-style: none;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-size: 13px;
+  font-style: normal;
+  color: white;
+}
+header ul li:hover {
+  cursor: pointer;
+  color: orangered;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0;
+  position: absolute;
+  top: 15rem;
+  width: 100%;
+}
+.section-1-img img {
+  width: 30rem;
+}
+
+.section-1 h2 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 400;
+}
+
+.section-1 h2 span {
+  font-weight: bold;
+}
+.section-1 p {
+  color: white;
+  font-size: 17px;
+}
+
+.section-1 button {
+  color: white;
+  background-color: #f55858;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 20px;
+  width: 9rem;
+}
+.section-1 button:hover {
+  background-color: #0088e8;
+  cursor: pointer;
+}
+
+.section-2 {
+    margin-top: 4rem;
+    margin-bottom: 7em;
+}
+.section-div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.section-2-content p {
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 32rem;
+}
+.section-2-content h2 {
+  font-size: 25px;
+}
+
+.section-2-content button {
+    color: white;
+    background-color: #00B4C6;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 20px;
+    width: 9rem;
+}
+.section-2-content button:hover {
+    cursor: pointer;
+    background-color: #0088e8;
+}
+
+.section-3 {
+    margin-top: 7em;
+    margin-bottom: 4rem;
+}
+.section-3-div {
+    display: flex;
+}
+.section-3 ul li {
+    list-style: none;
+}
+.section-3 ul li img {
+    height: 4rem;
+}
+.section-3 ul li h2 {
+    font-weight: 500;
+}
+.section-3 ul li p {
+    max-width: 20rem;
+}
+
